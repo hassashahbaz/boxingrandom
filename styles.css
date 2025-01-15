@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .game-highlight {
+    flex: 2;
+    background-color: #2f2f2f;
+    color: white;
+    padding: 150px 150px;
+    border-radius: 8px;
+  }
+  
+  .game-highlight img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100px;
+    border-radius: 8px;
+  }
+  
+  .game-highlight h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .game-highlight p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .game-highlight button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .game-highlight button:hover {
+    background-color: rgb(248, 74, 74);
+  }
+  
+/* second css */
+
+.container {
+    padding: 20px ;
+    width: 95%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .image {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .h1,h2{
+    margin: 10px 0px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding: 18px 20px;
+  }
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
